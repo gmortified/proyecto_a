@@ -280,3 +280,9 @@ nv {
     width: auto; height: auto;
  }
 }
+.zapas {
+    transform: translateX(60px);
+}
+.tres {
+    transform:translateX(60px) ;
+}
