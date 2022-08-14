@@ -53,13 +53,14 @@ h4 {
     height: 100;
     float: right;
     text-align: right;
-    margin-right:100px;
-    margin-top: 200px;
+    margin-right:500px;
+
    margin-bottom: 5px;
-    font-size: 90px;
+    font-size: 200px;
     color: greenyellow;
     border-color: green;
     border-style: solid;
+    
 }
 .see {
     text-align: center;
@@ -70,14 +71,16 @@ h5 {
     height: 100;
     float: right;
     text-align: right;
-    margin-right:100px;
-    margin-top: 200px;
+    margin-right:500px;
+    margin-top: auto;
    margin-bottom: 5px;
-   font-size: 90px;
-   color: greenyellow;
-   border-style: solid;
-   border-color: green;
+    font-size: 200px;
+    color: greenyellow;
+    border-color: green;
+    border-style: solid;
+   
 }
+
 header {
     text-align: right;
     border-radius:200px;
@@ -286,3 +289,7 @@ nv {
 .tres {
     transform:translateX(60px) ;
 }
+.tituloprin {
+    margin-top: 4rem;
+}
+.sub {margin-top: 1rem;}
