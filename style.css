@@ -204,11 +204,7 @@ nv {
     grid-auto-flow: row dense;
   }
   
-  @media all and (min-width: 320px) {
-    .grid-gallery {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
+
   
   @media all and (min-width: 768px) {
     .grid-gallery {
@@ -262,23 +258,7 @@ nv {
      width: fit-content;
     }
     .truelov { font-size: 20px;}
-    .snoopy {
-        margin-left: 10px;  
-        justify-content: left ;
-         width: 137px ;
-          height:177px;
-        }
-    .vestido {
-        justify-content: center;
-        width: 137px ;
-         height:177px;}
-    .remeraseles {
-        margin-right: 10px;
-        justify-content: right;  width: 137px ; height:177px;}
- .tres { width: auto; height: auto;}
- .zapas {
-    width: auto; height: auto;
- }
+ 
 }
 .zapas {
     transform: translateX(60px);
@@ -286,3 +266,30 @@ nv {
 .tres {
     transform:translateX(60px) ;
 }
+.bae {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+@media all and (min-width: 320px) {
+    .zapas {
+        width: 414px; height: 575px;
+    }
+    .snoopy { width: 200px; height: 248px;}
+    .vestido { width: 200px; height: 248px;}
+    .remeraseles { width: 200px; height: 248px;}
+    
+  }
+  @media all and (min-width: 1024px) {
+    .zapas { width: 1350px; height: 500px;}
+    .snoopy {width: 398px; height:516px;}
+    .vestido { width: 398px; height:516px;}
+    .remeraseles {width: 398px; height:516px;}
+    }
+     .yuo { font-size: 3.4rem; }
+     @media only screen and (max-width: 960px) { h1 { font-size: 5.66666667vw; } }
+     @media only screen and (max-width: 564.70588235px) { h1 { font-size: 2rem; } }
+     
+     .cont { font-size: 3.4rem; }
+     @media only screen and (max-width: 960px) { h1 { font-size: 5.66666667vw; } }
+     @media only screen and (max-width: 564.70588235px) { h1 { font-size: 2rem; } }
+     
